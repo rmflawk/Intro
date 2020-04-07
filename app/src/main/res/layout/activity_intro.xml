@@ -14,7 +14,7 @@
         android:id="@+id/iv"
         android:layout_width="1000dp"
         android:layout_height="1000dp"
-        android:src="@drawable/aggplantt"
+        android:src="@drawable/aggpp"
         android:scaleType="center"/>
 
 

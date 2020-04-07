@@ -3,10 +3,43 @@
     android:interpolator="@android:anim/accelerate_decelerate_interpolator">
 
     <translate
-        android:fromXDelta="00%p"
-        android:toXDelta="20%p"
+        android:fromXDelta="-50%p"
+        android:toXDelta="-20%p"
+        android:fromYDelta="00%p"
+        android:toYDelta="-30%p"
         android:duration="2000"
         android:repeatCount="0"
         android:fillAfter="true"/>
+
+    <translate
+        android:fillAfter="true"
+        android:startOffset="1500"
+        android:fromYDelta="00%p"
+        android:fromXDelta="00%p"
+        android:toXDelta="20%p"
+        android:toYDelta="30%p"
+        android:duration="1500"
+        android:interpolator="@android:anim/bounce_interpolator" />
+
+    <translate
+        android:fillAfter="true"
+        android:startOffset="2800"
+        android:fromYDelta="00%p"
+        android:fromXDelta="00%p"
+        android:toXDelta="100%p"
+        android:toYDelta="00%p"
+        android:duration="1500"
+        android:interpolator="@android:anim/bounce_interpolator" />
+
+    <translate
+        android:fillAfter="true"
+        android:startOffset="4200"
+        android:fromYDelta="00%p"
+        android:fromXDelta="00%p"
+        android:toXDelta="-100%p"
+        android:toYDelta="00%p"
+        android:duration="800"
+        android:interpolator="@android:anim/bounce_interpolator" />
+
 </set>
 
